@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\admin\\BuiThiThao585\\BuiThiThao585.csproj": {}
+    "C:\\NetCore\\BuiThiThao585\\BuiThiThao585.csproj": {}
   },
   "projects": {
-    "C:\\Users\\admin\\BuiThiThao585\\BuiThiThao585.csproj": {
+    "C:\\NetCore\\BuiThiThao585\\BuiThiThao585.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\admin\\BuiThiThao585\\BuiThiThao585.csproj",
+        "projectUniqueName": "C:\\NetCore\\BuiThiThao585\\BuiThiThao585.csproj",
         "projectName": "BuiThiThao585",
-        "projectPath": "C:\\Users\\admin\\BuiThiThao585\\BuiThiThao585.csproj",
+        "projectPath": "C:\\NetCore\\BuiThiThao585\\BuiThiThao585.csproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\admin\\BuiThiThao585\\obj\\",
+        "outputPath": "C:\\NetCore\\BuiThiThao585\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,26 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SQLite": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
